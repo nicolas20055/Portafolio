@@ -1,6 +1,7 @@
 import React from 'react'
 import { CardInfo } from '../../Ul/CardInfo/CardInfo'
 import { CardInfoAnimated } from '../../Ul/CardInfoAnimated'
+
 import javascriptImage from "../../assets/images/javascript.png";
 import reactImage from "../../assets/images/React.png";
 import javaImage from "../../assets/images/java.png";
