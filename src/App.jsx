@@ -13,7 +13,7 @@ export const App = () => {
     <>
       <Header />
 
-      <main className="flex-1">
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/SocialSkills" element={<SocialSkills />} />
@@ -21,7 +21,7 @@ export const App = () => {
           <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
           <Route path="/Studies" element={<Studies />} />
         </Routes>
-      </main>
+      
       <Footer />
     </>
   );

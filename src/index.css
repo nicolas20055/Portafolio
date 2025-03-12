@@ -17,3 +17,8 @@ body, #root{
   height: 200px; 
   justify-content: center;
 }
+.medium-card {
+  width: 900px; 
+  height: 200px; 
+  justify-content: center;
+}

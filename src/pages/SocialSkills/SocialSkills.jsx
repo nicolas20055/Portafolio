@@ -5,7 +5,7 @@ export function SocialSkills() {
   return (
     <main>
         <h1 className='flex justify-center text-3xl text-blue-600'>Habilidades Sociales</h1>
-      <div className='p-40  gap-10 grid justify-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mb-10'>  
+      <div className='p-40  gap-10 grid justify-items-center sm:grid-cols-2 transition-all hover:scale-95 '>  
         <CardInfo
           title="Comunicación"
           content="Habilidad para comunicar ideas de manera efectiva."

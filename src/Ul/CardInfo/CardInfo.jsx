@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CardInfo = ({ title, content, images, customClass }) => {
+export const CardInfo = ({ title, content, images, customClass, }) => {
   return (
     <div className={`w-10/12 gap-52 sm:w-64 md:w-72 lg:w-96 xl:w-[800px] rounded-lg overflow-hidden shadow-lg bg-transparent border border-gray-200 h-[400px] ${customClass}`}>
       <div className="px-6 py-4">
