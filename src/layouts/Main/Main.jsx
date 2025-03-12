@@ -1,5 +1,6 @@
 import foto from "../../assets/images/foto.jpg";
 
+
 export const Main = () => {
     return (
         <>
