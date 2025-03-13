@@ -29,7 +29,7 @@ export const Footer = () => {
                     <References
                         styleReference="list-none"
                         contentReference={
-                            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://api.whatsapp.com/send?phone=573234879314" target="_blank" rel="noopener noreferrer">
                                 <FaWhatsapp className="text-xl sm:text-lg hover:text-green-500 transition" />
                             </a>
                         }
