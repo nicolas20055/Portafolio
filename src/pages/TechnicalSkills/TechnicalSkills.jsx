@@ -1,7 +1,6 @@
 import React from 'react'
 import { CardInfo } from '../../Ul/CardInfo/CardInfo'
 import { CardInfoAnimated } from '../../Ul/CardInfoAnimated/CardInfoAnimated'
-
 import { FaJava } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
@@ -30,7 +29,7 @@ export function TechnicalSkills() {
 
   return (
     <main>
-      <div className='p-10 flex flex-col gap-4 justify-center items-center'>
+      <div className='p-10 flex flex-col gap-4 justify-center items-center c'>
         <CardInfoAnimated
           title="Technical Skills"
           content="Lenguajes de programación que he aprendido."

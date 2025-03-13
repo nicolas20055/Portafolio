@@ -4,8 +4,8 @@ import { CardInfo } from '../../Ul/CardInfo/CardInfo'
 export function SocialSkills() {
   return (
     <main>
-        <h1 className='flex justify-center text-3xl text-blue-600'>Habilidades Sociales</h1>
-      <div className='p-40  gap-10 grid justify-items-center sm:grid-cols-2 transition-all hover:scale-95 '>  
+        <h1 className=' truncate flex justify-center items-center text-4xl font-bold bg-gradient-to-r from-blue-400 via-green-400 to-red-500 bg-[length:200%_200%] animate-textGradient bg-clip-text text-transparent'>Habilidades Sociales</h1>
+      <div className='p-40  gap-10 grid justify-items-center sm:grid-cols-2 transition-all hover:scale-105 '>  
         <CardInfo
           title="Comunicación"
           content="Habilidad para comunicar ideas de manera efectiva."

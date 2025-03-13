@@ -1,13 +1,21 @@
 import React from 'react'
 
-export const Certificate = () => {
-  const certificates = [
-    'https://drive.google.com/uc?export=download&id=ID_DEL_CERTIFICADO_1',
-    'https://drive.google.com/uc?export=download&id=ID_DEL_CERTIFICADO_2',
-    'https://drive.google.com/uc?export=download&id=ID_DEL_CERTIFICADO_3',
-  ];
+export const Certificate = ({ url, titleCertificate }) => {
   return (
     
-    <div className=''>Certificate</div>
+      
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          id="certificatees"
+          className="p-5 gap-5 justify-items-center bg-custom-50 max-w-[300px] h-[130px] flex flex-col text-center underline items-center justify-center rounded-md shadow-md hover:shadow-lg transition duration-300"
+        >
+          <h4>{titleCertificate}</h4>
+        </a>
+      
+    
   )
 }
+
+export default Certificate
