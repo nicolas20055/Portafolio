@@ -13,10 +13,7 @@ import Git from '../../assets/images/Git.png';
 import  GitHub from '../../assets/images/GitHub.png';
 import Vs from '../../assets/images/VS.png';
 
-
-
 export function TechnicalSkills() {
-
   const icons = [
     <FaJava />,
     <IoLogoJavascript />,
@@ -28,8 +25,8 @@ export function TechnicalSkills() {
   ];
 
   return (
-    <main>
-      <div className='p-10 flex flex-col gap-4 justify-center items-center c'>
+    <main className="flex flex-col items-center p-4 sm:p-6 md:p-8 lg:p-10">
+      <div className="flex flex-col gap-4 justify-center items-center w-full max-w-4xl">
         <CardInfoAnimated
           title="Technical Skills"
           content="Lenguajes de programación que he aprendido."
@@ -37,7 +34,7 @@ export function TechnicalSkills() {
         />
         <CardInfo
           title="Technologies"
-          content="Tecnologias que he aprendido."
+          content="Tecnologías que he aprendido."
           images={[Code, Git, GitHub, Vs]}
         />
       </div>

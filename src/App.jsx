@@ -11,6 +11,7 @@ import { Footer } from "./layouts/Footer/Footer";
 export const App = () => {
   return (
     <>
+    
       <Header />
 
       

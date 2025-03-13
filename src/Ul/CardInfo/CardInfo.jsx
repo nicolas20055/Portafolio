@@ -1,26 +1,29 @@
 import React from 'react';
 
-export const CardInfo = ({ title, content, images, customClass, }) => {
+export const CardInfo = ({ title, content, images, customClass }) => {
   return (
-    <div className={`w-10/12 gap-52 sm:w-64 md:w-72 lg:w-96 xl:w-[800px] rounded-lg overflow-hidden shadow-lg bg-transparent border border-gray-200 h-[400px] ${customClass}`}>
-      <div className="px-6 py-4">
-        <h2 className="  truncate flex justify-center items-center text-2xlxl font-bold bg-gradient-to-r from-blue-400 via-green-400 to-red-500 bg-[length:200%_200%] animate-textGradient bg-clip-text text-transparent ">{title}</h2>
-      </div>
+    <div className={`w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-lg overflow-hidden shadow-lg border border-gray-200 h-[350px] sm:h-[380px] md:h-[400px] flex flex-col justify-center items-center ${customClass}`}>
+      
+      {/* Título */}
+      <h2 className="text-center text-lg sm:text-xl md:text-2xl font-bold">
+        {title}
+      </h2>
 
-      <div className="px-6 py-4 justify-center items-center">
-        <p className="text-gray-100 text-base">{content}</p>
-      </div>
+      {/* Contenido */}
+      <p className="text-base text-center px-4 sm:px-6">
+        {content}
+      </p>
 
+      {/* Imágenes */}
       {images && images.length > 0 && (
-        <div className="flex justify-center items-center h-48 relative">
+        <div className="flex justify-center items-center h-32 sm:h-36 md:h-40 lg:h-48 space-x-4">
           {images.map((img, index) => (
-            <div key={index} className="w-[150px] h-[150px] rounded-lg flex-shrink-0 object-contain m-2">
+            <div key={index} className="w-[80px] sm:w-[100px] md:w-[120px] h-[80px] sm:h-[100px] md:h-[120px] flex-shrink-0 object-contain">
               {typeof img === 'string' ? (
                 <img
                   src={img}
                   alt={`imagen ${index + 1}`}
                   className="w-full h-full object-contain"
-                  style={{ mixBlendMode: 'multiply' }}
                 />
               ) : (
                 img
@@ -32,5 +35,3 @@ export const CardInfo = ({ title, content, images, customClass, }) => {
     </div>
   );
 };
-
-

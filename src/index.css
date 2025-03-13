@@ -29,3 +29,7 @@ body, #root{
     100% { background-position: 0% 50%; }
   }
 }
+html, body {
+  overflow-x: hidden; 
+  width: 100%;
+}
