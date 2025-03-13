@@ -26,7 +26,7 @@ export function TechnicalSkills() {
 
   return (
     <main className="flex flex-col items-center p-4 sm:p-6 md:p-8 lg:p-10">
-      <div className="flex flex-col gap-4 justify-center items-center w-full max-w-4xl">
+      <div className="flex flex-col gap-4 justify-center items-center  max-w-3xl">
         <CardInfoAnimated
           title="Technical Skills"
           content="Lenguajes de programación que he aprendido."

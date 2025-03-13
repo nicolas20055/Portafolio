@@ -6,7 +6,7 @@ export const Footer = () => {
         <>
             <footer className="w-full h-auto flex flex-col items-center p-4 bg-gray-900 text-white mt-auto">
                 <References
-                    styleReference="list-none pr-4 sm:pr-0"
+                    styleReference="list-none pr-4"
                     contentReference="Contactame en:"
                 />
                 <div className="flex flex-row gap-4 sm:gap-2">

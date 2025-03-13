@@ -2,7 +2,7 @@ import { Navbar } from "../Navbar/Navbar";
 
 export const Header = () => {
     return (
-        <header className="w-full h-20 flex justify-between items-center px-6 bg-gray-900 text-white">
+        <header className="w-full h-20 flex justify-between items-center px-6 text-white">
             <h1 className="text-lg font-extrabold">
                 Nicolas <span className="text-red-200">Ortiz</span> <span className="text-purple-300">Morales</span>
                 <br />

@@ -2,19 +2,16 @@ import React from 'react';
 
 export const CardInfo = ({ title, content, images, customClass }) => {
   return (
-    <div className={`w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-lg overflow-hidden shadow-lg border border-gray-200 h-[350px] sm:h-[380px] md:h-[400px] flex flex-col justify-center items-center ${customClass}`}>
+    <div className={`w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl min-w-3xs rounded-lg overflow-hidden shadow-lg border border-gray-200 h-[350px] sm:h-[380px] md:h-[400px] flex flex-col justify-center items-center ${customClass}`}>
       
-      {/* Título */}
       <h2 className="text-center text-lg sm:text-xl md:text-2xl font-bold">
         {title}
       </h2>
 
-      {/* Contenido */}
-      <p className="text-base text-center px-4 sm:px-6">
+      <p className=" text-base text-center px-4 sm:px-6">
         {content}
       </p>
 
-      {/* Imágenes */}
       {images && images.length > 0 && (
         <div className="flex justify-center items-center h-32 sm:h-36 md:h-40 lg:h-48 space-x-4">
           {images.map((img, index) => (

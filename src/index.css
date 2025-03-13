@@ -33,3 +33,9 @@ html, body {
   overflow-x: hidden; 
   width: 100%;
 }
+@media (max-width: 320px) {
+  .medium-card {
+    width: 100%;
+  }
+
+}

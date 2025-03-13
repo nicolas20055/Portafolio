@@ -14,7 +14,7 @@ export const CardInfoAnimated = ({ title, content, images }) => {
   }, [images]);
 
   return (
-    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-all duration-300 ease-in-out hover:scale-105 h-[350px] sm:h-[380px] md:h-[400px] flex flex-col justify-center items-center">
+    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-all duration-300 ease-in-out hover:scale-105 h-[350px] sm:h-[250px] md:h-[400px] flex flex-col justify-center items-center">
       
      
       <h2 className="text-center text-lg sm:text-xl md:text-2xl font-bold">
@@ -22,7 +22,7 @@ export const CardInfoAnimated = ({ title, content, images }) => {
       </h2>
 
      
-      <p className="text-sm sm:text-base md:text-lg text-center px-4 sm:px-6 mt-2">
+      <p className=" text-sm sm:text-base md:text-lg text-center px-4 sm:px-6 mt-2 ">
         {content}
       </p>
 
