@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ItemNav } from "../../Components/ItemNav";
+import { ItemNav } from "../../components/ItemNav/ItemNav";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
