@@ -1,16 +1,17 @@
-import { References } from "../References/References";
+import { ItemNav } from "../../components/ItemNav/ItemNav";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
     return (
         <>
             <footer className="w-full h-auto flex flex-col items-center p-4 bg-gray-900 text-white mt-auto">
-                <References
+                <ItemNav
                     styleReference="list-none pr-4"
                     contentReference="Contactame en:"
                 />
                 <div className="flex flex-row gap-4 sm:gap-2">
-                    <References
+                    {/* Facebook Link */}
+                    <ItemNav
                         styleReference="list-none"
                         contentReference={
                             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
@@ -18,7 +19,8 @@ export const Footer = () => {
                             </a>
                         }
                     />
-                    <References
+                    {/* Instagram Link */}
+                    <ItemNav
                         styleReference="list-none"
                         contentReference={
                             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
@@ -26,7 +28,8 @@ export const Footer = () => {
                             </a>
                         }
                     />
-                    <References
+                    {/* WhatsApp Link */}
+                    <ItemNav
                         styleReference="list-none"
                         contentReference={
                             <a href="https://api.whatsapp.com/send?phone=573234879314" target="_blank" rel="noopener noreferrer">
