@@ -2,7 +2,7 @@ import foto from "../../assets/images/foto.jpg";
 
 export const Main = () => {
     return (
-        <main className="flex flex-col items-center justify-center min-h-[calc(100vh-100px)]">
+        <main className="flex flex-col items-center justify-center min-h-[calc(100vh-100px)] overflow-hidden">
             <div className="bg-transparent shadow-lg rounded-lg p-5 w-full max-w-xl flex flex-col sm:flex-row border border-gray-300 mb-10">
                 <img className="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-full mb-4 sm:mr-5 sm:mb-0" 
                      src={foto} 
