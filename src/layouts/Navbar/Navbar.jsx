@@ -7,7 +7,7 @@ export const Navbar = () => {
 
     return (
         <nav className="relative">
-            {/* Botón menú hamburguesa (visible en pantallas pequeñas) */}
+            
             <button 
                 onClick={() => setIsOpen(!isOpen)} 
                 className="md:hidden text-white text-2xl focus:outline-none absolute right-4 top-4"
@@ -15,7 +15,7 @@ export const Navbar = () => {
                 {isOpen ? <FaTimes /> : <FaBars />}
             </button>
 
-            {/* Menú de navegación */}
+          
             <ul className={`
                 flex flex-col md:flex-row gap-4 md:gap-6 
                 fixed md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent 

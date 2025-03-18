@@ -14,7 +14,7 @@ export const CardInfo = ({ title, content, images, customClass }) => {
 
       {images && images.length > 0 && (
         <div className="flex justify-center items-center h-32 sm:h-36 md:h-40 lg:h-48 space-x-4">
-          {images.map((img, index) => (
+          {images.map((img, index, title) => (
             <div key={index} className="w-[80px] sm:w-[100px] md:w-[120px] h-[80px] sm:h-[100px] md:h-[120px] flex-shrink-0 object-contain">
               {typeof img === 'string' ? (
                 <img
